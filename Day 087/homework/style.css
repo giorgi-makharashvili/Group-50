@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: Bungee Tint;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/dicewallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.805);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+img{
+    width: 300px;
+}
+
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.imgdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdiv p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #c30001;
+    transition: 0.4s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: rgb(126, 4, 4);
+}
+
+.psdivv{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+
+#h1ta{
+    position: absolute;
+    top: 50px;
+}
+
