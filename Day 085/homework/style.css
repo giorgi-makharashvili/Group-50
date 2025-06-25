@@ -48,6 +48,10 @@ body{
     cursor: pointer;
 }
 
+.a1:hover{
+    border: 10px solid  #53607c;
+}
+
 #head{
     color: #fff;
     text-shadow: 2px -0px #d90464;
