@@ -12,9 +12,10 @@ body{
     font-family: Bungee Tint;
     justify-content: center;
     align-items: center;
-    background-image: url("./img/dicewallpaper.jpg");
+    background-image: url("./img/background2.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -197,4 +198,29 @@ button:hover{
     position: absolute;
     top: 0;
     display: none;
+}
+
+@media (max-width:600px){
+    .square{
+        width: 100%;
+    }
+    #player1, #player2{
+        width: 100%;
+    }
+}
+
+@media (max-width:480px){
+    .psdivv{
+        gap: 20px;
+    }
+    .p{
+        font-size: 13px;
+    }
+    .imgdiv p{
+        font-size: 20px;
+    }
+    #h1ta{
+        font-size: 22px;
+    }
+
 }
