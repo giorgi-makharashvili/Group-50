@@ -11,10 +11,15 @@ let score2 = document.getElementById("score2");
 let h1 = document.getElementById("h1ta");
 
 let audio = new Audio("./audio/dice mp3.mp3");
+let audio2 = new Audio("./audio/gg.wav");
 
 let body = document.body
 
 let btns = document.getElementById("btn1")
+
+let gif = document.querySelector(".gif1")
+
+let background = document.querySelector(".background")
 
 count1 = 0;
 count2 = 0;
@@ -41,9 +46,13 @@ button.addEventListener("click", function(){
     score2.textContent = count2
 
     if (count1 == 5){
-        body.innerHTML = player1style
+        background.innerHTML = player1style
+        audio2.play()
+        gif.style.display = "block"
     } else if (count2 == 5){
-        body.innerHTML = player2style
+        background.innerHTML = player2style
+        audio2.play()
+        gif.style.display = "block"
     }
 
     }, 1100)
